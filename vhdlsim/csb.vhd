@@ -3,36 +3,38 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
 entity carry_select_adder is
-port ( x : in std_logic_vector (3 downto 0);
-       y : in std_logic_vector (3 downto 0);
+generic(NBIT: INTEGER := 4 );
+port ( x,y : in std_logic_vector (NBIT-1 downto 0);
        cin : in std_logic ;
-	   s : out std_logic_vector (3 downto 0);
-       co : out std_logic );
+       s : out std_logic_vector (NBIT-1 downto 0));
 end carry_select_adder;
 
-architecture behavioral of carry_select_adder
+architecture behavioral of carry_select_adder is
 
-component rca
-port ( A:	In	std_logic_vector(3 downto 0);
-		B:	In	std_logic_vector(3 downto 0);
-		Ci:	In	std_logic;
-		S:	Out	std_logic_vector(3 downto 0);
-		Co:	Out	std_logic);
-end component;
-component mux21_generic
-port (A, B : in  std_logic_vector(3 downto 0);
-        SEL  : in  std_logic;
-        Y    : out std_logic_vector(3 downto 0);
+component RCA_GENERIC 
+generic(NBIT: INTEGER);
+port ( A, B : In std_logic_vector(NBIT-1 downto 0);
+       Ci : In std_logic;
+       S : Out std_logic_vector(NBIT-1 downto 0);
+       Co : Out	std_logic);
 end component;
 
-signal A,B,s1,s2: std_logic_vector(3 downto 0);
+signal s1,s2: std_logic_vector(NBIT-1 downto 0);
 signal co1,co2: std_logic;
 begin
 
-rca1: rca port map(x,y,'0',s1,co1);
-rca2: rca port map(x,y,'1',s2,co2);
+rca1: RCA_GENERIC generic map(NBIT => NBIT)
+          port    map(A  => x,
+                      B  => y,
+                      Ci => '0',
+                      S  => s1);
 
-mux1: mux21 port map(s1,s2,cin,s);
+rca2: RCA_GENERIC generic map(NBIT => NBIT)
+          port    map(A  => x,
+                      B  => y,
+                      Ci => '1',
+                      S  => s2);
 
+ s <= s1 when cin = '0' else s2;
 
 end behavioral;

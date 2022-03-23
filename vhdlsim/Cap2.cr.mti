@@ -1,0 +1,75 @@
+{{C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 03:44:33 on Mar 23,2022
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture BEHAVIORAL of FA
+-- Compiling configuration CFG_FA_BEHAVIORAL
+-- Loading entity FA
+-- Loading architecture BEHAVIORAL of FA
+End time: 03:44:33 on Mar 23,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture BEHAVIORAL of FA
+-- Compiling configuration CFG_FA_BEHAVIORAL
+-- Loading entity FA
+-- Loading architecture BEHAVIORAL of FA
+
+} {} {}} {{C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 03:44:33 on Mar 23,2022
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity carry_select_adder
+-- Compiling architecture behavioral of carry_select_adder
+End time: 03:44:33 on Mar 23,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity carry_select_adder
+-- Compiling architecture behavioral of carry_select_adder
+
+} {} {}} {{C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd}} {0 {vcom -work work -2002 -explicit {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 03:44:34 on Mar 23,2022
+vcom -reportprogress 300 -work work -2002 -explicit C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RCA_GENERIC
+-- Compiling architecture STRUCTURAL of RCA_GENERIC
+-- Compiling architecture BEHAVIORAL of RCA_GENERIC
+-- Loading entity RCA_GENERIC
+-- Compiling configuration CFG_RCA_GEN_STRUCTURAL
+-- Loading entity RCA_GENERIC
+-- Loading architecture STRUCTURAL of RCA_GENERIC
+-- Loading entity FA
+-- Loading configuration cfg_fa_behavioral
+-- Compiling configuration CFG_RCA_GEN_BEHAVIORAL
+** Error: (vcom-11) Could not find work.rca.
+** Error: C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd(65): VHDL Compiler exiting
+End time: 03:44:34 on Mar 23,2022, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
+
+} {20.0 22.0} {}}

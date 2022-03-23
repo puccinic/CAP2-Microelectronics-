@@ -1,19 +1,19 @@
 library ieee; 
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
-use WORK.constants.all;
-entity RCA is 
+
+entity RCA_GENERIC is 
 	generic (DRCAS : 	Time := 0 ns;
 	         DRCAC : 	Time := 0 ns;
-                 NBIT : INTEGER := numBit);
+           NBIT : INTEGER := 4);
 	Port (	A:	In	std_logic_vector(NBIT-1 downto 0);
 		B:	In	std_logic_vector(NBIT-1 downto 0);
 		Ci:	In	std_logic;
 		S:	Out	std_logic_vector(NBIT-1 downto 0);
 		Co:	Out	std_logic);
-end RCA; 
+end RCA_GENERIC; 
 
-architecture STRUCTURAL of RCA is
+architecture STRUCTURAL of RCA_GENERIC is
 
   signal STMP : std_logic_vector(NBIT-1 downto 0);
   signal CTMP : std_logic_vector(NBIT downto 0);
@@ -43,7 +43,7 @@ begin
 end STRUCTURAL;
 
 
-architecture BEHAVIORAL of RCA is
+architecture BEHAVIORAL of RCA_GENERIC is
    signal CAUX : std_logic_vector(NBIT downto 0);
 begin
 
@@ -52,7 +52,7 @@ begin
  S  <= CAUX(NBIT-1 downto 0) after DRCAS;
 end BEHAVIORAL;
 
-configuration CFG_RCA_STRUCTURAL of RCA is
+configuration CFG_RCA_GEN_STRUCTURAL of RCA_GENERIC is
   for STRUCTURAL 
     for ADDER1
       for all : FA
@@ -60,9 +60,9 @@ configuration CFG_RCA_STRUCTURAL of RCA is
       end for;
     end for;
   end for;
-end CFG_RCA_STRUCTURAL;
+end CFG_RCA_GEN_STRUCTURAL;
 
-configuration CFG_RCA_BEHAVIORAL of RCA is
+configuration CFG_RCA_GEN_BEHAVIORAL of RCA is
  for BEHAVIORAL 
  end for;
-end CFG_RCA_BEHAVIORAL;
+end CFG_RCA_GEN_BEHAVIORAL;
