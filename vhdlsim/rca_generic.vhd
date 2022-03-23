@@ -62,7 +62,7 @@ configuration CFG_RCA_GEN_STRUCTURAL of RCA_GENERIC is
   end for;
 end CFG_RCA_GEN_STRUCTURAL;
 
-configuration CFG_RCA_GEN_BEHAVIORAL of RCA is
+configuration CFG_RCA_GEN_BEHAVIORAL of RCA_GENERIC is
  for BEHAVIORAL 
  end for;
 end CFG_RCA_GEN_BEHAVIORAL;
