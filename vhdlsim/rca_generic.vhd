@@ -45,9 +45,10 @@ end STRUCTURAL;
 
 architecture BEHAVIORAL of RCA_GENERIC is
    signal CAUX : std_logic_vector(NBIT downto 0);
+   signal C    : std_logic_vector(NBIT-1 downto 0) := (others => '0');
 begin
 
- CAUX <= (('0' & A) +('0' & B )+ ("000000" & Ci) );
+ CAUX <= (('0' & A) + ('0' & B) + (C & Ci) );
  Co <= CAUX(NBIT) after DRCAC;
  S  <= CAUX(NBIT-1 downto 0) after DRCAS;
 end BEHAVIORAL;

@@ -4,9 +4,9 @@ use ieee.std_logic_unsigned.all;
 
 entity carry_select_adder is
 generic(NBIT: INTEGER := 4 );
-port ( x,y : in std_logic_vector (NBIT-1 downto 0);
-       cin : in std_logic ;
-       s : out std_logic_vector (NBIT-1 downto 0));
+port   (x,y : in std_logic_vector (NBIT-1 downto 0);
+        cin : in std_logic ;
+        s : out std_logic_vector (NBIT-1 downto 0));
 end carry_select_adder;
 
 architecture behavioral of carry_select_adder is
@@ -38,3 +38,20 @@ rca2: RCA_GENERIC generic map(NBIT => NBIT)
  s <= s1 when cin = '0' else s2;
 
 end behavioral;
+
+
+configuration CFG_CSB_BEHAVIORAL_RCA_STRUC of carry_select_adder is
+       for BEHAVIORAL
+          for all : RCA_GENERIC
+             use configuration WORK.CFG_RCA_GEN_STRUCTURAL;
+          end for; 
+       end for;
+end CFG_CSB_BEHAVIORAL_RCA_STRUC;
+
+configuration CFG_CSB_BEHAVIORAL_RCA_BEH of carry_select_adder is
+       for BEHAVIORAL
+          for all : RCA_GENERIC
+             use configuration WORK.CFG_RCA_GEN_BEHAVIORAL;
+          end for; 
+       end for;
+end CFG_CSB_BEHAVIORAL_RCA_BEH;

@@ -9,7 +9,7 @@ z2
 cModel Technology
 d/home/ms22.19/cap2/vhdlsim
 Ecarry_select_adder
-Z0 w1648000626
+Z0 w1648033770
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
@@ -19,14 +19,14 @@ Z6 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic s
 Z7 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd
 l0
 L5
-VYR:nH3?G<_D>8L6Y4?:>:2
-!s100 EBcoc;4==EmO>f^1RLI^_0
+VLRi7]RCgfd4d[<^H[2iGR3
+!s100 OJAn@<d63hcBMF@l@;7Q63
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1648003473
+Z9 !s110 1648039243
 !i10b 1
-Z10 !s108 1648003473.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd|
+Z10 !s108 1648039242.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd|
 Z12 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd|
 !i113 1
 Z13 o-work work -2002 -explicit
@@ -36,7 +36,7 @@ R1
 R2
 R3
 R4
-DEx4 work 18 carry_select_adder 0 22 YR:nH3?G<_D>8L6Y4?:>:2
+Z15 DEx4 work 18 carry_select_adder 0 22 LRi7]RCgfd4d[<^H[2iGR3
 l24
 L12
 VMOIg]0_OSh;XE4b>bhVP50
@@ -51,146 +51,277 @@ R12
 !i113 1
 R13
 R14
+Ccfg_csb_behavioral_rca_beh
+Z16 ecarry_select_adder
+Z17 aBEHAVIORAL
+Z18 DEx4 work 11 rca_generic 0 22 Q^;UY2m5GM^oKX:h>kNhM1
+DCx4 work 22 cfg_rca_gen_behavioral 0 22 JR8?>Ro8^a87ddO06:aA>0
+Z19 DAx4 work 18 carry_select_adder 10 behavioral 22 MOIg]0_OSh;XE4b>bhVP50
+R1
+R2
+R3
+R4
+R15
+R0
+R5
+R6
+R7
+l0
+L51
+VQWkf<zc4G4HlWKU=l]X@P1
+!s100 l967zX3?==TfnA@i6k<Vd1
+R8
+32
+R9
+!i10b 0
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ccfg_csb_behavioral_rca_struc
+R16
+R17
+R18
+DCx4 work 22 cfg_rca_gen_structural 0 22 O^`OF7P70a26iMz6zTXGG2
+R19
+R1
+R2
+R3
+R4
+R15
+R0
+R5
+R6
+R7
+l0
+L43
+V2G3g[hkhm`Ude^CN0`YN00
+!s100 imD?jf6bek:MaMA]zjFT>0
+R8
+32
+R9
+!i10b 0
+R10
+R11
+R12
+!i113 1
+R13
+R14
 Ccfg_fa_behavioral
 eFA
-Z15 aBEHAVIORAL
+R17
 DAx4 work 2 fa 10 behavioral 22 U`fPnli=z[lbJggT6`Lm@3
 R3
 R4
-Z16 DEx4 work 2 fa 0 22 _LR^^2=6fLVkC`WLdY4o_3
-Z17 w1647993999
+Z20 DEx4 work 2 fa 0 22 _LR^^2=6fLVkC`WLdY4o_3
+Z21 w1647993999
 R5
-Z18 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd
-Z19 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd
+Z22 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd
+Z23 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd
 l0
 L24
 VH^BGce4SW?cfl]R]azgD60
 !s100 ;fLgj2F5I1BR>Vc^?i^<S3
 R8
 32
-R9
+Z24 !s110 1648039242
 !i10b 0
 R10
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd|
-Z21 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd|
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd|
+Z26 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/fa.vhd|
 !i113 1
 R13
 R14
 Ccfg_rca_gen_behavioral
-Z22 eRCA_GENERIC
-R15
-DAx4 work 11 rca_generic 10 behavioral 22 ni;>XAU@dzTdTcJehUSEl3
+Z27 eRCA_GENERIC
+R17
+DAx4 work 11 rca_generic 10 behavioral 22 d3@PJ[SF<LS=JPFCe]5C41
 R1
 R2
 R3
 R4
-Z23 DEx4 work 11 rca_generic 0 22 Q^;UY2m5GM^oKX:h>kNhM1
-Z24 w1648028075
+R18
+Z28 w1648039190
 R5
-Z25 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd
-Z26 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd
+Z29 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd
+Z30 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd
 l0
-L65
-V3B[2bF0BWSOoUNW7dF[AH2
-!s100 NOTdh<S@7Z?VHcN;LZ4EO3
+L66
+VJR8?>Ro8^a87ddO06:aA>0
+!s100 I5<L@UERBJVHB_2olnWL?3
 R8
 32
-Z27 !s110 1648028128
+R9
 !i10b 0
-Z28 !s108 1648028128.000000
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd|
-Z30 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd|
+Z31 !s108 1648039243.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd|
+Z33 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/rca_generic.vhd|
 !i113 1
 R13
 R14
 Ccfg_rca_gen_structural
-R22
+R27
 aSTRUCTURAL
-R16
+R20
 DCx4 work 17 cfg_fa_behavioral 0 22 H^BGce4SW?cfl]R]azgD60
 DAx4 work 11 rca_generic 10 structural 22 7[b>o:HOkUOZo^=8ZhbA33
 R1
 R2
 R3
 R4
-R23
-R24
-R5
-R25
-R26
-l0
-L55
-Vk9TE=i8C2e]`2eNe]Yl112
-!s100 Dbb2=NinFYko9TF>6kSF@2
-R8
-32
-R27
-!i10b 0
+R18
 R28
+R5
 R29
 R30
+l0
+L56
+VO^`OF7P70a26iMz6zTXGG2
+!s100 TTNg?z3iQ0cdKW2JTeOlW0
+R8
+32
+R9
+!i10b 0
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Ccsbtest
+eTBCSB
+aTEST
+Z34 DEx4 work 6 lfsr16 0 22 d4THaCT?=i0KWA[=DbB>;1
+R15
+DCx4 work 26 cfg_csb_behavioral_rca_beh 0 22 QWkf<zc4G4HlWKU=l]X@P1
+R1
+R2
+DCx4 work 28 cfg_csb_behavioral_rca_struc 0 22 2G3g[hkhm`Ude^CN0`YN00
+DAx4 work 5 tbcsb 4 test 22 2BSS_D9dIGJNaln;JZ8HT2
+Z35 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+Z36 DEx4 work 5 tbcsb 0 22 <z2`_lEi<i4X4fc8TzGlB0
+Z37 w1648033649
+R5
+Z38 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd
+Z39 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd
+l0
+L76
+VCm7@:N`kLC[b=O6Cd=^hY2
+!s100 ?_P]MjQW0Ri?CWgVF[i<30
+R8
+32
+R9
+!i10b 0
+R31
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd|
+Z41 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd|
 !i113 1
 R13
 R14
 Efa
-R17
+R21
 R3
 R4
 R5
-R18
-R19
+R22
+R23
 l0
 L4
 V_LR^^2=6fLVkC`WLdY4o_3
 !s100 R@78Q9B;RU?BKW[d:f7WA2
 R8
 32
-R9
+R24
 !i10b 1
 R10
-R20
-R21
+R25
+R26
 !i113 1
 R13
 R14
 Abehavioral
 R3
 R4
-R16
+R20
 l16
 L14
 VU`fPnli=z[lbJggT6`Lm@3
 !s100 DMi>BZZVj6i=_GX:XX[z53
 R8
 32
-R9
+R24
 !i10b 1
 R10
-R20
+R25
+R26
+!i113 1
+R13
+R14
+Elfsr16
 R21
+R1
+R3
+R4
+R5
+Z42 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd
+Z43 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd
+l0
+L6
+Vd4THaCT?=i0KWA[=DbB>;1
+!s100 L[m8V_6C>;0ScP9MX`Wi11
+R8
+32
+R9
+!i10b 1
+R31
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd|
+Z45 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R3
+R4
+R34
+l19
+L17
+VPTh8c09MaGYffD`9d16:j2
+!s100 Zd7^eezldY<`n>c8T4VN10
+R8
+32
+R9
+!i10b 1
+R31
+R44
+R45
 !i113 1
 R13
 R14
 Erca_generic
-R24
+R28
 R1
 R2
 R3
 R4
 R5
-R25
-R26
+R29
+R30
 l0
 L5
 VQ^;UY2m5GM^oKX:h>kNhM1
 !s100 U2Jfllc@nSdK_HV07Uk6g2
 R8
 32
-R27
+R9
 !i10b 1
-R28
-R29
-R30
+R31
+R32
+R33
 !i113 1
 R13
 R14
@@ -199,18 +330,18 @@ R1
 R2
 R3
 R4
-R23
-l48
+R18
+l49
 L46
-Z31 Vni;>XAU@dzTdTcJehUSEl3
-Z32 !s100 FQY:g>P:MQUgzYTDV`YOM1
+Vd3@PJ[SF<LS=JPFCe]5C41
+!s100 g6o^o_b^=>:95haGk6Ai>1
 R8
 32
-R27
+R9
 !i10b 1
-R28
-R29
-R30
+R31
+R32
+R33
 !i113 1
 R13
 R14
@@ -219,18 +350,59 @@ R1
 R2
 R3
 R4
-R23
+R18
 l31
 L16
-Z33 V7[b>o:HOkUOZo^=8ZhbA33
-Z34 !s100 H:;2F7ef9BYJ=nbOX3_:e2
+V7[b>o:HOkUOZo^=8ZhbA33
+!s100 H:;2F7ef9BYJ=nbOX3_:e2
 R8
 32
-R27
+R9
 !i10b 1
-R28
-R29
-R30
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Etbcsb
+R37
+R35
+R3
+R4
+R5
+R38
+R39
+l0
+L5
+V<z2`_lEi<i4X4fc8TzGlB0
+!s100 BTM>HIPhceS:UJ8M7_iO[1
+R8
+32
+R9
+!i10b 1
+R31
+R40
+R41
+!i113 1
+R13
+R14
+Atest
+R35
+R3
+R4
+R36
+l33
+L8
+Z46 V2BSS_D9dIGJNaln;JZ8HT2
+Z47 !s100 n;RO>`cCY`IZ71f6`SI2d1
+R8
+32
+R9
+!i10b 1
+R31
+R40
+R41
 !i113 1
 R13
 R14
