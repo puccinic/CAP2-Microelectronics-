@@ -163,7 +163,7 @@ R13
 R14
 Ccfg_rca_gen_structural
 R27
-aSTRUCTURAL
+Z34 aSTRUCTURAL
 R20
 DCx4 work 17 cfg_fa_behavioral 0 22 H^BGce4SW?cfl]R]azgD60
 DAx4 work 11 rca_generic 10 structural 22 7[b>o:HOkUOZo^=8ZhbA33
@@ -190,24 +190,53 @@ R33
 !i113 1
 R13
 R14
+Ccfg_sum_generator_structural
+eSUM_GENERATOR
+R34
+R15
+Z35 DCx4 work 28 cfg_csb_behavioral_rca_struc 0 22 2G3g[hkhm`Ude^CN0`YN00
+DAx4 work 13 sum_generator 10 structural 22 RC]G0[_ieg_OVz6MDQSj:1
+R1
+R2
+R3
+R4
+Z36 DEx4 work 13 sum_generator 0 22 1;zj<iMQ`U`F;ZJU4kja72
+Z37 w1648077786
+R5
+Z38 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/sum_generator.vhd
+Z39 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/sum_generator.vhd
+l0
+L38
+V2bR>D9=P^YWb;0h7?lBO03
+!s100 BcnlQ?;K^2?FBGHEK[9gl0
+R8
+32
+Z40 !s110 1648077795
+!i10b 0
+Z41 !s108 1648077795.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/sum_generator.vhd|
+Z43 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/sum_generator.vhd|
+!i113 1
+R13
+R14
 Ccsbtest
 eTBCSB
-aTEST
-Z34 DEx4 work 6 lfsr16 0 22 d4THaCT?=i0KWA[=DbB>;1
+Z44 aTEST
+Z45 DEx4 work 6 lfsr16 0 22 d4THaCT?=i0KWA[=DbB>;1
 R15
 DCx4 work 26 cfg_csb_behavioral_rca_beh 0 22 QWkf<zc4G4HlWKU=l]X@P1
 R1
 R2
-DCx4 work 28 cfg_csb_behavioral_rca_struc 0 22 2G3g[hkhm`Ude^CN0`YN00
+R35
 DAx4 work 5 tbcsb 4 test 22 2BSS_D9dIGJNaln;JZ8HT2
-Z35 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z46 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R3
 R4
-Z36 DEx4 work 5 tbcsb 0 22 <z2`_lEi<i4X4fc8TzGlB0
-Z37 w1648033649
+Z47 DEx4 work 5 tbcsb 0 22 <z2`_lEi<i4X4fc8TzGlB0
+Z48 w1648033649
 R5
-Z38 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd
-Z39 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd
+Z49 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd
+Z50 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd
 l0
 L76
 VCm7@:N`kLC[b=O6Cd=^hY2
@@ -217,8 +246,8 @@ R8
 R9
 !i10b 0
 R31
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd|
-Z41 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd|
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd|
+Z52 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_csb.vhd|
 !i113 1
 R13
 R14
@@ -267,8 +296,8 @@ R1
 R3
 R4
 R5
-Z42 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd
-Z43 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd
+Z53 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd
+Z54 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd
 l0
 L6
 Vd4THaCT?=i0KWA[=DbB>;1
@@ -278,8 +307,8 @@ R8
 R9
 !i10b 1
 R31
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd|
-Z45 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd|
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd|
+Z56 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/lfsr.vhd|
 !i113 1
 R13
 R14
@@ -287,7 +316,7 @@ Artl
 R1
 R3
 R4
-R34
+R45
 l19
 L17
 VPTh8c09MaGYffD`9d16:j2
@@ -297,8 +326,8 @@ R8
 R9
 !i10b 1
 R31
-R44
-R45
+R55
+R56
 !i113 1
 R13
 R14
@@ -365,14 +394,87 @@ R33
 !i113 1
 R13
 R14
-Etbcsb
+Esum_generator
 R37
-R35
+R1
+R2
 R3
 R4
 R5
 R38
 R39
+l0
+L5
+V1;zj<iMQ`U`F;ZJU4kja72
+!s100 GOOH=M@JkUER9KK1H_<0o0
+R8
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+R36
+l25
+L17
+VRC]G0[_ieg_OVz6MDQSj:1
+!s100 _5]1jB8D7cnlmJ<b1G^?U1
+R8
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R13
+R14
+Csum_generatortest
+eTBSUM_GENERATOR
+R44
+R36
+DCx4 work 28 cfg_sum_generator_structural 0 22 2bR>D9=P^YWb;0h7?lBO03
+DAx4 work 15 tbsum_generator 4 test 22 ][CCZQS0gCITQ`5flH4GN3
+R46
+R1
+R2
+R3
+R4
+Z57 DEx4 work 15 tbsum_generator 0 22 z7DVGfCPdB;7QUL[0:N>Y3
+Z58 w1648080327
+R5
+Z59 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd
+Z60 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd
+l0
+L44
+V6H>z8R5EiRO_=Fc?9[cXN1
+!s100 K9H?=zG90ndE_e8WCD;?03
+R8
+32
+Z61 !s110 1648080334
+!i10b 0
+Z62 !s108 1648080334.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd|
+Z64 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd|
+!i113 1
+R13
+R14
+Etbcsb
+R48
+R46
+R3
+R4
+R5
+R49
+R50
 l0
 L5
 V<z2`_lEi<i4X4fc8TzGlB0
@@ -382,27 +484,72 @@ R8
 R9
 !i10b 1
 R31
-R40
-R41
+R51
+R52
 !i113 1
 R13
 R14
 Atest
-R35
+R46
 R3
 R4
-R36
+R47
 l33
 L8
-Z46 V2BSS_D9dIGJNaln;JZ8HT2
-Z47 !s100 n;RO>`cCY`IZ71f6`SI2d1
+V2BSS_D9dIGJNaln;JZ8HT2
+!s100 n;RO>`cCY`IZ71f6`SI2d1
 R8
 32
 R9
 !i10b 1
 R31
-R40
-R41
+R51
+R52
+!i113 1
+R13
+R14
+Etbsum_generator
+R58
+R46
+R1
+R2
+R3
+R4
+R5
+R59
+R60
+l0
+L6
+Vz7DVGfCPdB;7QUL[0:N>Y3
+!s100 b[:`Fd6BB]CMYT5zBDRhV1
+R8
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R13
+R14
+Atest
+R46
+R1
+R2
+R3
+R4
+R57
+l26
+L9
+V][CCZQS0gCITQ`5flH4GN3
+!s100 <>6<^;IG]zZFU0jzXIhDf0
+R8
+32
+R61
+!i10b 1
+R62
+R63
+R64
 !i113 1
 R13
 R14
