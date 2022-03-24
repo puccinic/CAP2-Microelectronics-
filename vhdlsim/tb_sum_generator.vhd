@@ -33,7 +33,7 @@ begin
 	
 	STIMULUS: process
 		-- Source code taken from https://vhdlwhiz.com/random-numbers/ 
-		-- function generates random values for std_logic_vector
+		-- function generates random values for std_logic_vector of varying length
 		variable seed1, seed2 : integer := 999; 
 		impure function rand_slv(len : integer) return std_logic_vector is
 			variable r : real;
