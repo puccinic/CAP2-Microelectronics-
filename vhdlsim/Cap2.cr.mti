@@ -48,22 +48,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity LFSR16
 -- Compiling architecture RTL of LFSR16
 
-} {} {}} {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity TBSUM_GENERATOR
--- Compiling architecture TEST of TBSUM_GENERATOR
--- Compiling configuration SUM_GENERATORTEST
--- Loading entity TBSUM_GENERATOR
--- Loading architecture TEST of TBSUM_GENERATOR
--- Loading entity SUM_GENERATOR
--- Loading configuration cfg_sum_generator_structural
-
 } {} {}} {{C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/csb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 Start time: 03:44:33 on Mar 23,2022
