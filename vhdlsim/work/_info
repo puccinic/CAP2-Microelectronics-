@@ -442,28 +442,29 @@ eTBSUM_GENERATOR
 R44
 R36
 DCx4 work 28 cfg_sum_generator_structural 0 22 2bR>D9=P^YWb;0h7?lBO03
-DAx4 work 15 tbsum_generator 4 test 22 ][CCZQS0gCITQ`5flH4GN3
+DAx4 work 15 tbsum_generator 4 test 22 <lWJe=`=IB_n[]LH^S_P:0
+Z57 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 R46
 R1
 R2
 R3
 R4
-Z57 DEx4 work 15 tbsum_generator 0 22 z7DVGfCPdB;7QUL[0:N>Y3
-Z58 w1648080327
+Z58 DEx4 work 15 tbsum_generator 0 22 i]gCO8eenlK??NkVI`AVl1
+Z59 w1648112589
 R5
-Z59 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd
-Z60 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd
+Z60 8C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd
+Z61 FC:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd
 l0
-L44
-V6H>z8R5EiRO_=Fc?9[cXN1
-!s100 K9H?=zG90ndE_e8WCD;?03
+L69
+VO3aO`4QJ1:c5h`>0?SbmM3
+!s100 6XI>b70Ba995FUgUaaez`0
 R8
 32
-Z61 !s110 1648080334
+Z62 !s110 1648112607
 !i10b 0
-Z62 !s108 1648080334.000000
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd|
-Z64 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd|
+Z63 !s108 1648112607.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd|
+Z65 !s107 C:/Users/Carlos Vergara/Desktop/Polito/2021-22/Second term/Microelectronic systems/Laboratories/cap2/vhdlsim/tb_sum_generator.vhd|
 !i113 1
 R13
 R14
@@ -509,47 +510,49 @@ R52
 R13
 R14
 Etbsum_generator
-R58
+R59
+R57
 R46
 R1
 R2
 R3
 R4
 R5
-R59
 R60
+R61
 l0
-L6
-Vz7DVGfCPdB;7QUL[0:N>Y3
-!s100 b[:`Fd6BB]CMYT5zBDRhV1
+L7
+Vi]gCO8eenlK??NkVI`AVl1
+!s100 <nOZF[AW32KIF_IJ<Zo=21
 R8
 32
-R61
-!i10b 1
 R62
+!i10b 1
 R63
 R64
+R65
 !i113 1
 R13
 R14
 Atest
+R57
 R46
 R1
 R2
 R3
 R4
-R57
-l26
-L9
-V][CCZQS0gCITQ`5flH4GN3
-!s100 <>6<^;IG]zZFU0jzXIhDf0
+R58
+l27
+L10
+V<lWJe=`=IB_n[]LH^S_P:0
+!s100 aJdeU74So8o>00XREV^3m3
 R8
 32
-R61
-!i10b 1
 R62
+!i10b 1
 R63
 R64
+R65
 !i113 1
 R13
 R14
