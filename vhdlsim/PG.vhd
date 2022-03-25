@@ -1,7 +1,7 @@
 library ieee; 
 use ieee.std_logic_1164.all; 
 
-entity blockPG is 
+entity PG_block is 
   
   port (  Pik : in std_logic;
           Gik : in std_logic;
@@ -13,7 +13,7 @@ entity blockPG is
 end entity;
 
 
-architecture behavioral of blockPG is
+architecture behavioral of PG_block is
   
   begin
     
