@@ -1,0 +1,74 @@
+[33mcommit a28cc3c215498d7e653b9eed937b0683b4d63415[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Diego B <diers225@gm>
+Date:   Fri Mar 25 15:10:28 2022 +0100
+
+    Carry generator upgraded
+
+[33mcommit 4347693908c9e8d804cb52d4ba4c0f8e4f368ab5[m
+Author: Diego B <diers225@gm>
+Date:   Wed Mar 23 23:25:28 2022 +0100
+
+    G,PG,PG network and Sparse_tree files
+
+[33mcommit 2e9fd7924f68c716d63278ea3a2a8fd6b02528b4[m
+Author: alierezakhan <95252742+alierezakhan@users.noreply.github.com>
+Date:   Wed Mar 23 14:38:10 2022 +0100
+
+    i change sth
+
+[33mcommit d753cfde535999cda763e644de0f98dcab61c478[m
+Author: puccinic <cevergarapu@gmail.com>
+Date:   Wed Mar 23 13:42:21 2022 +0100
+
+    simulated vhdl files
+
+[33mcommit 61cd3b8e511ab74daff6f78460d473fc8874ecd3[m
+Author: puccinic <cevergarapu@gmail.com>
+Date:   Wed Mar 23 10:36:20 2022 +0100
+
+    Mmodified and compiled rca_generic.vhd
+
+[33mcommit 63e27978046783b222bd502b239641fbd2f14666[m
+Author: puccinic <cevergarapu@gmail.com>
+Date:   Wed Mar 23 03:55:36 2022 +0100
+
+    added modelsim project file and made corrections to rca generic and csb files
+
+[33mcommit 5ce5f0feeef087c9a23dca82b9fbf6121d41cddc[m
+Author: puccinic <cevergarapu@gmail.com>
+Date:   Wed Mar 23 01:08:55 2022 +0100
+
+    no changes
+
+[33mcommit 8fed8cbc8c5821452400fdb2c37434123137e43d[m
+Merge: 6d07242 68afd2b
+Author: Diego B <diers225@gm>
+Date:   Tue Mar 22 19:59:12 2022 +0100
+
+    Merge branch 'main' of https://github.com/puccinic/CAP2-Microelectronics- into main
+
+[33mcommit 6d072425e83922b87cc2c7e2ae43ab2af5bc15ab[m
+Author: Diego B <diers225@gm>
+Date:   Tue Mar 22 19:54:58 2022 +0100
+
+    new
+
+[33mcommit 68afd2bf3c8f30823e0b398a3b41415eec1b3701[m
+Author: alierezakhan <95252742+alierezakhan@users.noreply.github.com>
+Date:   Tue Mar 22 12:47:59 2022 +0100
+
+    Add files via upload
+    
+    carry select block
+
+[33mcommit 6ddb4d820edcf50b6246c8a86c7529a8da596afc[m
+Author: Diego B <diers225@gm>
+Date:   Mon Mar 21 23:48:10 2022 +0100
+
+    Add Readme
+
+[33mcommit a63bee8bdb8d1cb621b19815d3c2146bdb230684[m
+Author: puccinic <cevergarapu@gmail.com>
+Date:   Mon Mar 21 20:27:03 2022 +0100
+
+    first commit
