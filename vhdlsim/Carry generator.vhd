@@ -1,4 +1,4 @@
-library ieee; 
+library ieee;
 use ieee.std_logic_1164.all;
 
 entity Carry_Generator is
@@ -42,7 +42,7 @@ architecture structural of Carry_Generator is
           Gij   : out std_logic;
           Pij   : out std_logic
           );
-	end component;
+  end component;
 
   component G_block is
 
@@ -52,7 +52,7 @@ architecture structural of Carry_Generator is
           Gij   : out std_logic
           );
   end component;
-   
+
 begin
 
   pgNetwork_i : pgNetwork generic map (N_bits => N_bits)
@@ -124,7 +124,7 @@ begin
                                            Gij   => gSignal(row)(i),
                                            Pij   => pSignal(row)(i)
                                            );
-   
+
           end generate;
         end generate;
 
@@ -149,6 +149,6 @@ configuration cfg_Carry_Generator of Carry_Generator is
   for structural
     for pgNetwork_i : pgNetwork
       use configuration work.cfg_pgNetwork;
-		end for;
-	end for;
+    end for;
+  end for;
 end configuration;
